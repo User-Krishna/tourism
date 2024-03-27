@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ourism Nepal</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>Heaven is a myth, Nepal is real.</p>
+       
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4" ></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/nepal-swayambhunath-monkey-temple.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Swayambhunath </h3>
+                <p>Best Place To Observe Religious Harmony In Entire Nepal..</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-8000.00 <span>MRP-10000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pasu.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pashupatinath </h3>
+                <p> Pashupatinath temple is devoted to Lord Shiva .</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-9000.00 <span>MRP-11000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/nepal-pokhara-lake.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pokhara </h3>
+                <p> Best Paragliding Destinations In The Nepal..</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-10000.00 <span>MRP-16000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/nepal-langtang-trek.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mustang </h3>
+                <p>popular for adventurous trekking, Tibetan culture, and exploring the thousand years of an old monastery.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-8000.00 <span>MRP-12000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/nepal-lumbini-temples.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lumbini </h3>
+                <p>Lumbini is famous for being the birthplace of Siddhartha Gautama, the historic Buddha, known as Buddha Shakyamuni.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-12000.00 <span>MRP-18000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/nepal-everest-base-camp-trek.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mt.Everest</h3>
+                <p>Pristine natural beauty, a rich cultural history, and tantalizing views of many of the world's most admired mountains are some of the main draws.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> MRP-25000.00 <span>MRP-40000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+
+
+
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box" >
+            <a href="hotel.html"> <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Iceland Hotels In pokhara, Hotel Marshyangdi In Kathmandu, Meghauli Serai and A Taj Safari - Chitwan National Park in Chitwan,Hotel Country Villa In Nagarkot.</p>
+        </div></a>
+        <div class="box">
+            <a href=""> <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Dal Bhat ,Momos, Sel Roti, Samosa, Everest Beer,Yomari, Dhindho or Dhido, Gundruk,Gorkhali Lamb,Juju Dhau,Chatamari, Thukpa,Samay Baji,Choila, Tongba,Indian snacks</p>
+        </div></a>
+        <div class="box">
+            <a href="">   <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Nepali people are conservative by nature. Avoid wearing skimpy clothes to avoid any unwanted attention,Avoid traveling alone in the dark,registration number of the Taxi you hired.</p>
+        </div></a>
+        <div class="box">
+            <a href="">   <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Tourism and travel-related services include services provided by hotels and restaurants, travel agencies and tour operator services, tourist guide services and other related services.</p>
+        </div></a>
+        <div class="box">
+            <a href="">   <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Air Travel in Nepal, Bus Travel in Nepal,Private Cars in Nepal, Motorcycles in Nepal,Taxis and Rickshaws in Nepal.</p>
+        </div></a>
+        <div class="box">
+            <a href=""> <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Nepal Eco Adventures,Ace the Himalayas,Incredible Treks,Mountain Delight
+                Treks & Expedtion,Outshine Adventures,Himalayan Glacier Trekking,Access Nepal
+                Tour and Trekking. </p>
+        </div></a>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>e</span>
+        <span> &#160;-</span>
+        <span>t</span>
+        <span>o</span>
+        <span> &#160;-</span>
+        <span>v</span>
+        <span>i</span>
+        <span>s</span>
+        <span>i</span>
+        <span>t</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>peace pagoda</h3>
+                <p>A Peace Pagoda is a Buddhist stupa; a monument to inspire peace.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Bhaktapur Durbar Square</h3>
+                <p>Bhaktapur has the best-preserved palace courtyards and old city centre in Nepal.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>kathmandu</h3>
+                <p>The city is considered the gateway to the Nepalese Himalayas and is home to several World Heritage Sites.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>pathibhara devi temple</h3>
+                <p>Pathibhara was an animist Limbu shrine, but after the Gorkha conquest came to be revered by Hindus.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>gosaikunda</h3>
+                <p>The holy Gosaikunda lake has unparalleled importance for Hindu and Buddhist pilgrims.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-16.jpg" alt="">
+            <div class="content">
+                <h3>white monastery</h3>
+                <p>The White Monastery gives heavenly pleasure and provides bird eye’s view of the Kathmandu Valley.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Gokyo Lakes</h3>
+                <p>Gokyo Lakes are oligotrophic lakes in Nepal's Sagarmatha National Park.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>tea garden</h3>
+                <p>An excellent getaway from city life, Ilam is famous for its tea.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Kailashnath Mahadev</h3>
+                <p>Kailashnath Mahadev Statue is the world's tallest Shiva temple.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-10.jpg" alt="">
+            <div class="content">
+                <h3>Kyanjin Gompa</h3>
+                <p>Trekking through rhododendron forest region along the Langtang river to Kyanjin Gompa.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-11.jpg" alt="">
+            <div class="content">
+                <h3>patan durbar square</h3>
+                <p>Historic Walking Areas, Points of Interest & Landmarks.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-12.jpg" alt="">
+            <div class="content">
+                <h3>Durbar (Central) Square</h3>
+                <p>Points of Interest & Landmarks.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-13.jpg" alt="">
+            <div class="content">
+                <h3>Royal Thai Monastery</h3>
+                <p>Royal Thai Monastery Lumbini, Lumbini Sacred Garden, East Monastic Zone, Dist. Rupandehi, Lumbini, Nepal.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-14.jpg" alt="">
+            <div class="content">
+                <h3>Chandragiri Hills</h3>
+                <p>The park is basically a picnic spot on top of the small hill near Kathmandu.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-15.jpg" alt="">
+            <div class="content">
+                <h3>rara lake</h3>
+                <p>The lake is famous for Snowtrout fish variety and is also one of the popular pilgrimage sites for Nepalis.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/binod.jpeg" alt="">
+                    <h3>binod subedi</h3>
+                    <p>‘Smooth efficent process coupled withs mazibg trek and even better people. While the weather was uncooperative the trip was amazing.’ </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-1.jpg" alt="">
+                    <h3>hariom verma</h3>
+                    <p>The mountains were so wild and so stark and so very beautiful that I wanted to cry. I breathed in another wonderful moment to keep safe in my heart.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-2.jpg" alt="">
+                    <h3>hiranand sha</h3>
+                    <p>nepal is a beautiful country with a lot of holy places. I also like the country because it’s close to the Himalayas.Its Look Like Dream Place.  </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/krr2.jpeg" alt="">
+                    <h3>krishna das</h3>
+                    <p>‘very friendly staff and very well organized. Looking after you from the first time until the end. I recommended this organization without any doubt.’ </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-3.jpg" alt="">
+                    <h3>omnarayan yadav</h3>
+                    <p>‘A Nepali outlook, pace and philosophy had prevented us from being swamped by our problems. In Nepal, it was easier to take life day by day.’</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic-4.jpg" alt="">
+                    <h3>ranjeet das</h3>
+                    <p>‘Tourists who come to Nepal look at terraced fields and see their beauty but remain blind to the hard labour they extract from tillers.’ </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+          
+           
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Krishna Das<br>Rajbiraj-05,Saptari(Nepal)<br>Contact No.=+9779818645705</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">nepal</a>
+            <a href="#">USA</a>
+            <a href="#">Malasiya</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">Telegram</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Krishna Das </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
